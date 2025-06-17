@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UWINEZA Shamila Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- navbar -->
+        <nav class="navbar">
+            <ul class="nav-links navbar-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills&Languages</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+    <!-- profile picture -->
+    <section class="her" id="about">
+        <div class="her-container">
+            <div class="picture">
+                <img src="profile picture.jpg" alt="Profile Picture">
+            </div>
+            <!-- about me sction -->
+            <aside>
+                <h1>About Me</h1>
+                <p class="about-text">I'm a first-year Software Engineering student passionate about solving problems
+                    through code and empowering young girls to pursue STEM. I enjoy building creative projects, learning
+                    new technologies, and making a positive impact in my community.</p>
+            </aside>
+        </div>
+    </section>
+    <!-- skills-languages -->
+    <section id="skills">
+        <h2 align="center">Skills & Languages</h2>
+        <div class="skills-languages">
+            <div class="skills">
+                <h2>Skills</h2>
+                <div class="skill-card">Web Development</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+            </div>
+            <!-- languages -->
+            <div class="languages">
+                <h2>Languages</h2>
+                <div class="language-card">English</div>
+                <div class="language-card">French</div>
+                <div class="language-card">Kinyarwanda</div>
+            </div>
+        </div>
+    </section>
+    <!-- experience -->
+    <section id="experience">
+        <h1 align="center">Experience</h1>
+        <div class="experience-container">
+            <div class="experience-card">
+
+                <h2>Head Girl in High school</h2>
+                <p>Led students, organized events, and represented peers in school leadership meetings</p>
+            </div>
+            <div class="experience-card">
+                <h2>Self-Led Learning(Web Development)</h2>
+                <p>built simple web apps using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    <!-- education -->
+    <section id="education">
+        <h2 align="center">Education</h2>
+        <div class="education-container">
+            <div class="education-card">
+                <h3>Bachelor's in Software Engineering</h3>
+                <p>African Leadership University - Graduated <time datetime="2028">2028</time></p>
+
+            </div>
+            <div class="education-card">
+                <h3>High school diploma in Mathematics-Physics-Computer_Science</h3>
+                <p>ES Kanombe - Graduated <time datetime="2028">2028</time></p>
+            </div>
+            <div class="education-card">
+                <h3>Primary school diploma</h3>
+                <p>Saint Agnès - Graduated <time datetime="2016">2016</time></p>
+            </div>
+        </div>
+    </section>
+    <!-- projects  -->
+    <section id="skills-languages">
+        <section id="projects">
+            <h2 align="center">Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Shell Scripting Project</h3>
+                    <p>Automating tasks using Bash scripting.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Truth or Dare Game – Personal Project</h3>
+                    <p>Built a “Truth or Dare” game using HTML, CSS & JS with random question/dares feature.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Form Section -->
+        <section class="contact" id="contact-form">
+            <h2 align="center">Leave a Message</h2>
+            <form id="messageForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button class="contact" type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="contact" id="contact">
+            <h2 align="center">Contact Me</h2>
+            <ul>
+                <li><i class="fas fa-envelope"></i> s.uwineza@alustudent.com</li>
+                <li><i class="fas fa-phone"></i> 0785019490</li>
+                <li><i class="fas fa-map-marker-alt"></i> Kigali, Rwanda</li>
+            </ul>
+            <!-- media -->
+            <div class="social-icons">
+                <a class="inst" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>
+                    Instagram</a>
+                <a class="link" href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i>
+                    LinkedIn</a>
+                <a class="git" href="https://github.com/UShamila?tab=repositories" target="_blank"><i
+                        class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 UWINEZA Shamila</p>
+        </footer>
+
+        <script defer src="script.js"></script>
+</body>
+
+</html>
